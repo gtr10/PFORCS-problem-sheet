@@ -21,4 +21,5 @@ height_M2 = ( int(input("\nEnter height: ")) / 100 ) ** 2
 # Dividing the weight var by the height var
 # Then rounding it to one decimal place to produce the final BMI
 # Then printing out the BMI
+
 print('\n BMI is {} \n'.format(round(weight_CM/height_M2,1)))
